@@ -1,0 +1,42 @@
+/* 清除内外边距 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 重置列表样式 */
+ul,
+ol {
+  list-style: none;
+}
+
+/* 重置超链接样式 */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 重置表单元素样式 */
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+/* 重置表格边框合并 */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 重置图片边框 */
+img {
+  border: 0;
+  vertical-align: middle;
+}
